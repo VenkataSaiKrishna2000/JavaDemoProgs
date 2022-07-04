@@ -1,0 +1,138 @@
+java features
+     platform independent
+     high performance
+     security
+     portable
+     intrepreted to any os
+     simple
+     oops
+     multi threading
+
+
+JDK:develop,debug,run the program
+JRE: run the program
+JVM:load the file,verify the file,execute the file
+
+
+data types
+   
+            primitive                                         non primitive
+numerical         non numerical                             string,array,class
+byte                 boolean
+short                char
+int 
+long
+float 
+double
+
+
+boolean        =1 bit
+char           =2 bytes
+byte           =1 byte=8 bits     2^8=256     -128 to 128
+short          =2 bytes           2^16        -2^16/2 to 2^16/2-1
+int            =4 bytes           2^32   
+long           =8 bytes           2^64
+float          =4 bytes           2^32
+double         =8 bytes           2^64
+
+
+operators?
+    UNARY OPEARATOR:
+               a=10;
+               a++;
+               a--;
+               ++a;
+               --a;
+    binary OPERATOR
+               (a=10,b=20;)
+                a<b;
+                a>b;
+                a>=b;
+                a<=b;
+                a!=b;
+                a==10 && b==20;
+                a==10 || b==20;
+                Relational oprators
+                     <=,>=,==,!=
+                Logical opearators:&&,||,!
+                Assignment Operators:=
+                Arithematic Operators:+,*,-,/,%
+    Ternary operator:a=2,b=5;
+                      (a<=5)?a:b;
+
+
+KEYWORDS:
+   Abstract
+   boolean
+   break
+   case
+   char double
+   enum
+   etends
+   try
+   catch 
+   finally
+   if 
+   else 
+   new
+
+
+statements: if
+            if else
+            else if
+            nested if
+            switch
+loops: for, while,do while
+
+ineritance ?
+ acquring the propertis from pparent to child
+ advantage ?
+        code re use
+        reduce the  length of code
+        our application performance will fast  
+   
+types of inheritance:
+single level inheritance:1 parent and 1 child
+multi level inheritance:1 parent 1 child and 1 grand child and so on
+multiple inheritance:1 child 2 parents
+hierarchial inheritance:1 parent 2 or more child
+hybrid inheritance : combination of both hieararchial and multiple inheritances
+
+class name : Capital
+mtthod : small 
+var : starts with char+ follwed by  number
+life_is_now_here
+LifeIsNoWhere
+LifeIsNowHere
+
+
+
+                class                        abstract                    interface
+
+obj             yes                            no                           no
+constructor     yes                            yes                          no
+initialize      yes                            yes                          no(assign manually)
+methods         only normal                    both abstract &              only abstract
+                or concrete                     concrete 
+multple inher   no                             no                           yes
+security        0%                             0-100%                       100%
+
+
+
+
+checked exception:checked during compilation
+    FileNotFoundException
+    SQL
+unchecked exception:checked during run time
+    NullPointer
+    Arithmetic 
+    NumberFormate
+    InputMissmatch
+
+how to handle?
+   two ways:1.throws
+            2.try and catch
+
+
+
+
